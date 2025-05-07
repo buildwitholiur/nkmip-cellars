@@ -4,9 +4,8 @@
     line-height: 60px;
   }
 
-  .hero img {
-    max-width: 60%;
-    margin-top: 60px;
+  .hero__bottles {
+    height: 500px;
   }
 
   .container {
@@ -60,6 +59,27 @@
   .vineyards__content {
     gap: 30px;
   }
+
+  .section__element {
+    height: 400px;
+  }
+
+  .section__element--slider {
+    height: 300px;
+  }
+
+  .section__element--product {
+    height: 350px;
+  }
+
+  .section__element--header {
+    left: 40% !important;
+    transform: translate(-50%, -50%) !important;
+    -webkit-transform: translate(-50%, -50%) !important;
+    -moz-transform: translate(-50%, -50%) !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    -o-transform: translate(-50%, -50%) !important;
+  }
 }
 
 @media (max-width: 992.98px) {
@@ -85,11 +105,6 @@
 
   .gallery__right {
     max-width: 100%;
-  }
-
-  .hero img {
-    max-width: 85%;
-    margin-top: 60px;
   }
 }
 
@@ -119,9 +134,14 @@
     line-height: 26px;
   }
 
+  .font--40 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
   .font--48 {
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 30px;
+    line-height: 40px;
   }
 
   .font--64 {
@@ -129,8 +149,8 @@
     line-height: 46px;
   }
 
-  .hero img {
-    max-width: 90%;
+  .hero__bottles {
+    height: 270px;
     margin-top: 40px;
   }
 
@@ -167,7 +187,7 @@
   .nav__logo,
   .footer__logo {
     width: fit-content;
-    height: 34px;
+    height: 54px;
   }
 
   .hero__logo {
@@ -271,5 +291,36 @@
   .product__arrows {
     gap: 20px;
     margin-bottom: 20px;
+  }
+
+  .section__element {
+    height: 300px;
+    bottom: -100px;
+  }
+
+  .section__element--slider {
+    height: 200px;
+  }
+
+  .section__element--product {
+    height: 250px;
+  }
+
+  .history__images img {
+    height: auto;
+  }
+
+  .product-list__items {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-top: 48px;
+  }
+
+  .product-list__item img {
+    height: 270px;
+  }
+
+  .intro__bg-image {
+    height: 300px;
   }
 }
