@@ -58,26 +58,26 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Product Slider
-  var swiper = new Swiper(".swiper--product", {
-    slidesPerView: 4,
-    spaceBetween: 30,
-    centeredSlides: false,
-    speed: 500,
-    navigation: {
-      nextEl: ".product__arrow--next",
-      prevEl: ".product__arrow--prev",
-    },
-    breakpoints: {
-      0: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
-      767: {
-        slidesPerView: 2,
-      },
-      1199: {
-        slidesPerView: 4,
-      },
-    },
-  });
+  // var swiper = new Swiper(".swiper--product", {
+  //   slidesPerView: 4,
+  //   spaceBetween: 30,
+  //   centeredSlides: false,
+  //   speed: 500,
+  //   navigation: {
+  //     nextEl: ".product__arrow--next",
+  //     prevEl: ".product__arrow--prev",
+  //   },
+  //   breakpoints: {
+  //     0: {
+  //       slidesPerView: 1,
+  //       spaceBetween: 20,
+  //     },
+  //     767: {
+  //       slidesPerView: 2,
+  //     },
+  //     1199: {
+  //       slidesPerView: 4,
+  //     },
+  //   },
+  // });
 });
