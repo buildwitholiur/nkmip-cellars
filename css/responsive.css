@@ -111,6 +111,10 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
   }
+
+  .product-list__item {
+    padding: 40px 20px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -335,7 +339,9 @@
   .product-list__item {
     border-left: 0;
     border-right: 0 !important;
+    border-top: 0;
     max-width: 100%;
+    padding-top: 20px;
   }
 
   .product__items {
